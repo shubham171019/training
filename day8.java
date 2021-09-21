@@ -6,8 +6,7 @@ class main{
         if(num%2==0)
         {
             System.out.print("even");
-        }
-        int firstValue =2;
+            int firstValue =2;
         int count=0;
         while(num!=0){
             if(num%2==0){
@@ -15,6 +14,18 @@ class main{
             }
             num = num/2;
         }
-        System.out.print(" and multple of 2 present = "+ count);
+        
+        if(count==2){
+            System.out.print(" It is square and multiple of 2");
+        }
+        else
+            System.out.print(" and multple of 2 present = "+ count);
+        
+        
+        }
+        else{
+            System.out.println(num+" is not even");
+        }
+        
     }
 }
